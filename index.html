@@ -155,6 +155,11 @@
     padding-bottom: 20px;
   }
 
+  /* ===== MiMoCode 安装说明 ===== */
+  .summary-box a:hover {
+    text-decoration: underline !important;
+  }
+
   /* ===== 手机端适配 ===== */
   @media (max-width: 768px) {
     h1 { font-size: 20px; padding-top: 12px; }
@@ -474,6 +479,37 @@
 
 <div class="section-divider"></div>
 
+<!-- ===== MiMoCode 安装说明 ===== -->
+<div class="summary-box" style="margin-top:0; border: 1px solid rgba(123,47,247,0.25);">
+  <h3 style="color:#b388ff;">🛠️ MiMoCode — 小米自研 AI 编程助手</h3>
+  <p style="margin-bottom:14px; color:#bbb; font-size:13px;">
+    MiMoCode 是小米自研的命令行 AI 编程助手，基于大模型驱动，支持代码生成、项目理解、文件编辑、Git 操作等能力。
+    本页面即由 MiMoCode 自动生成。
+  </p>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+    <div style="background:rgba(123,47,247,0.08); border-radius:8px; padding:14px 16px; border:1px solid rgba(123,47,247,0.15);">
+      <p style="color:#b388ff; font-size:12px; font-weight:700; margin-bottom:8px;">📦 npm 安装</p>
+      <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 12px; font-family:'Cascadia Code','Fira Code',monospace;">
+        <p style="color:#66bb6a; font-size:12px; margin-bottom:4px;"><span style="color:#888;">$</span> npm install -g mimocode</p>
+        <p style="color:#999; font-size:10px; margin-top:6px;">需要 Node.js ≥ 18</p>
+      </div>
+    </div>
+    <div style="background:rgba(123,47,247,0.08); border-radius:8px; padding:14px 16px; border:1px solid rgba(123,47,247,0.15);">
+      <p style="color:#b388ff; font-size:12px; font-weight:700; margin-bottom:8px;">🚀 启动运行</p>
+      <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 12px; font-family:'Cascadia Code','Fira Code',monospace;">
+        <p style="color:#66bb6a; font-size:12px; margin-bottom:4px;"><span style="color:#888;">$</span> cd your-project</p>
+        <p style="color:#66bb6a; font-size:12px;"><span style="color:#888;">$</span> mimocode</p>
+      </div>
+    </div>
+  </div>
+  <p style="color:#999; font-size:11px; margin-top:12px; text-align:center;">
+    GitHub：<a href="https://github.com/XiaoMi/mimocode" style="color:#b388ff; text-decoration:none;">https://github.com/XiaoMi/mimocode</a>
+    &nbsp;·&nbsp; npm：<a href="https://www.npmjs.com/package/mimocode" style="color:#b388ff; text-decoration:none;">npmjs.com/package/mimocode</a>
+  </p>
+</div>
+
+<div class="section-divider"></div>
+
 <!-- ===== 生成说明 ===== -->
 <div class="summary-box" style="margin-top:0;">
   <h3 style="color:#88ccdd;">🤖 本页面由 MiMo AI 生成</h3>
@@ -508,32 +544,18 @@
     MiMo Code 是小米推出的命令行 AI 编程助手，支持代码生成、重构、调试等全流程开发辅助。
   </p>
 
-  <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px;">
-    <div style="background:rgba(255,255,255,0.04); border-radius:8px; padding:16px 18px; border:1px solid rgba(255,255,255,0.06);">
-      <p style="color:#66bb6a; font-size:12px; font-weight:700; margin-bottom:8px;">方式一：npm 安装（推荐）</p>
-      <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 14px; margin-bottom:8px;">
-        <code style="color:#4fc3f7; font-size:12px;">npm install -g mimocode</code>
-      </div>
-      <p style="color:#999; font-size:11px; line-height:1.7;">安装完成后在任意目录运行：</p>
-      <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 14px; margin-top:6px;">
-        <code style="color:#4fc3f7; font-size:12px;">mimocode</code>
-      </div>
+  <div style="background:rgba(255,255,255,0.04); border-radius:8px; padding:16px 18px; border:1px solid rgba(255,255,255,0.06);">
+    <p style="color:#66bb6a; font-size:12px; font-weight:700; margin-bottom:8px;">通过 npm 安装</p>
+    <p style="color:#999; font-size:11px; line-height:1.7; margin-bottom:8px;">
+      <a href="https://www.npmjs.com/package/mimocode" target="_blank" style="color:#4fc3f7; text-decoration:none;">npmjs.com/package/mimocode</a>
+      &nbsp;·&nbsp; 需要先安装 <a href="https://nodejs.org" target="_blank" style="color:#4fc3f7; text-decoration:none;">Node.js</a>（v18+），npm 会随 Node.js 一同安装。
+    </p>
+    <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 14px; margin-bottom:8px;">
+      <code style="color:#4fc3f7; font-size:12px;">npm install -g mimocode</code>
     </div>
-
-    <div style="background:rgba(255,255,255,0.04); border-radius:8px; padding:16px 18px; border:1px solid rgba(255,255,255,0.06);">
-      <p style="color:#66bb6a; font-size:12px; font-weight:700; margin-bottom:8px;">方式二：下载安装包</p>
-      <p style="color:#999; font-size:11px; line-height:1.7; margin-bottom:8px;">前往 GitHub 下载最新版本：</p>
-      <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 14px;">
-        <a href="https://github.com/XiaoMi/mimocode/releases" target="_blank" style="color:#4fc3f7; font-size:12px; text-decoration:none; word-break:break-all;">github.com/XiaoMi/mimocode/releases</a>
-      </div>
-    </div>
-  </div>
-
-  <div style="background:rgba(255,255,255,0.04); border-radius:8px; padding:14px 18px; border:1px solid rgba(255,255,255,0.06);">
-    <p style="color:#999; font-size:11px; font-weight:600; margin-bottom:8px;">🚀 快速开始</p>
-    <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 14px; line-height:2;">
-      <code style="color:#aaa; font-size:11px;"># 1. 安装<br>npm install -g mimocode<br><br># 2. 首次运行（会引导你完成配置）<br>mimocode<br><br># 3. 在项目目录中启动，开始编程辅助<br>cd your-project<br>mimocode</code>
-    </div>
+    <p style="color:#999; font-size:11px; line-height:1.7;">
+      安装完成后在终端运行 <code style="background:rgba(255,255,255,0.07); padding:1px 5px; border-radius:3px; font-size:11px; color:#66bb6a;">mimocode</code> 即可启动，首次运行会引导你完成 API Key 配置。
+    </p>
   </div>
 </div>
 
