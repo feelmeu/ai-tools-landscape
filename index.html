@@ -169,8 +169,9 @@
     .section-divider { margin: 20px auto; }
     .table-section { padding: 0 12px; }
     .table-section h2 { font-size: 15px; margin-bottom: 10px; }
-    table { font-size: 11px; display: block; overflow-x: auto; white-space: nowrap; }
-    thead th, tbody td { padding: 8px 10px; font-size: 10px; }
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -12px; padding: 0 12px; }
+    table { font-size: 10px; white-space: nowrap; min-width: 600px; }
+    thead th, tbody td { padding: 6px 8px; font-size: 9px; }
     .principle-grid { padding: 0 12px; gap: 10px; }
     .principle-grid .step { padding: 14px; }
     .principle-grid .step h4 { font-size: 12px; }
@@ -434,6 +435,7 @@
 
 <div class="table-section">
   <h2>📊 主流 AI 工具对比速查表</h2>
+  <div class="table-wrap">
   <table>
     <thead>
       <tr><th>地区</th><th>工具名称</th><th>开发商</th><th>底层模型</th><th>核心能力</th><th>适合场景</th></tr>
@@ -453,6 +455,7 @@
       <tr><td class="region-domestic">国内</td><td><b>文心一言</b></td><td>百度</td><td>ERNIE 4.5</td><td>对话、搜索整合</td><td>百度生态用户、营销文案</td></tr>
     </tbody>
   </table>
+  </div>
 </div>
 
 <div class="section-divider"></div>
