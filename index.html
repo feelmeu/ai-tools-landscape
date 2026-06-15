@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="theme-color" content="#1a1a2e">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta property="og:title" content="涓绘祦AI宸ュ叿涓庡ぇ妯″瀷路鍒嗙被鍏ㄦ櫙鍥?>
-<meta property="og:description" content="甯姪闈炴妧鏈敤鎴峰揩閫熺悊瑙I宸ュ叿鐢熸€併€佸垎绫婚€昏緫涓庢惌寤哄師鐞?>
+<meta property="og:title" content="主流AI工具与大模型·分类全景图">
+<meta property="og:description" content="帮助非技术用户快速理解AI工具生态、分类逻辑与搭建原理">
 <meta property="og:type" content="website">
-<title>涓绘祦AI宸ュ叿涓庡ぇ妯″瀷鍒嗙被鍥?/title>
+<title>主流AI工具与大模型分类图</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -158,12 +155,12 @@
     padding-bottom: 20px;
   }
 
-  /* ===== MiMoCode 瀹夎璇存槑 ===== */
+  /* ===== MiMoCode 安装说明 ===== */
   .summary-box a:hover {
     text-decoration: underline !important;
   }
 
-  /* ===== 鎵嬫満绔€傞厤 ===== */
+  /* ===== 手机端适配 ===== */
   @media (max-width: 768px) {
     h1 { font-size: 20px; padding-top: 12px; }
     .subtitle { font-size: 11px; margin-bottom: 12px; }
@@ -194,12 +191,13 @@
 <body>
 <div class="page-bg">
 
-<h1>涓绘祦 AI 宸ュ叿涓庡ぇ妯″瀷 路 鍒嗙被鍏ㄦ櫙鍥?/h1>
-<p class="subtitle">甯姪闈炴妧鏈敤鎴峰揩閫熺悊瑙?AI 宸ュ叿鐢熸€併€佸垎绫婚€昏緫涓庢惌寤哄師鐞?/p>
+<h1>主流 AI 工具与大模型 · 分类全景图</h1>
+<p class="subtitle">帮助非技术用户快速理解 AI 工具生态、分类逻辑与搭建原理</p>
 
 <!-- ====================================================================
-     SVG 鎬濈淮瀵煎浘
-     鎵€鏈夎繛绾跨鐐瑰凡绮剧‘璁＄畻鍒拌妭鐐硅竟妗?     ==================================================================== -->
+     SVG 思维导图
+     所有连线端点已精确计算到节点边框
+     ==================================================================== -->
 <div class="mindmap-container">
 <svg viewBox="0 0 1380 920" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -212,226 +210,226 @@
     </filter>
   </defs>
 
-  <!-- ===================== 杩炵嚎灞?=====================
-       涓績鍦? cx=700 cy=460 r=80
-       鍥藉: x=880 y=214 w=100 h=52  鈫?涓績(930,240) left(880,240) right(980,240)
-       鍥藉唴: x=880 y=634 w=100 h=52  鈫?涓績(930,660) left(880,660) right(980,660)
-       鎼缓鍘熺悊: x=420 y=434 w=130 h=52 鈫?涓績(485,460) left(420,460) right(550,460)
-       鍩虹澶фā鍨?鍥藉): x=1060 y=125 w=120 h=50 鈫?涓績(1120,150) left(1060,150) right(1180,150)
-       缂栫▼宸ュ叿(鍥藉): x=1060 y=308 w=120 h=44 鈫?涓績(1120,330) left(1060,330) right(1180,330)
-       鍩虹澶фā鍨?鍥藉唴): x=1060 y=545 w=120 h=50 鈫?涓績(1120,570) left(1060,570) right(1180,570)
-       缂栫▼宸ュ叿(鍥藉唴): x=1060 y=728 w=120 h=44 鈫?涓績(1120,750) left(1060,750) right(1180,750)
+  <!-- ===================== 连线层 =====================
+       中心圆: cx=700 cy=460 r=80
+       国外: x=880 y=214 w=100 h=52  → 中心(930,240) left(880,240) right(980,240)
+       国内: x=880 y=634 w=100 h=52  → 中心(930,660) left(880,660) right(980,660)
+       搭建原理: x=420 y=434 w=130 h=52 → 中心(485,460) left(420,460) right(550,460)
+       基础大模型(国外): x=1060 y=125 w=120 h=50 → 中心(1120,150) left(1060,150) right(1180,150)
+       编程工具(国外): x=1060 y=308 w=120 h=44 → 中心(1120,330) left(1060,330) right(1180,330)
+       基础大模型(国内): x=1060 y=545 w=120 h=50 → 中心(1120,570) left(1060,570) right(1180,570)
+       编程工具(国内): x=1060 y=728 w=120 h=44 → 中心(1120,750) left(1060,750) right(1180,750)
        =============================== -->
 
-  <!-- === 涓績 鈫?涓変釜涓诲垎鏀?=== -->
+  <!-- === 中心 → 三个主分支 === -->
   <line x1="762" y1="410" x2="880" y2="240" stroke="#00d2ff" stroke-width="2.5" opacity="0.5"/>
   <line x1="765" y1="510" x2="880" y2="660" stroke="#ff6ac1" stroke-width="2.5" opacity="0.5"/>
   <line x1="620" y1="458" x2="550" y2="460" stroke="#4db6ac" stroke-width="2.5" opacity="0.5"/>
 
-  <!-- === 鍥藉 鈫?涓や釜瀛愯妭鐐?(瀵圭О 卤90px) === -->
+  <!-- === 国外 → 两个子节点 (对称 ±90px) === -->
   <line x1="980" y1="240" x2="1020" y2="150" stroke="#00d2ff" stroke-width="1.8" opacity="0.4"/>
   <line x1="980" y1="240" x2="1020" y2="330" stroke="#00d2ff" stroke-width="1.8" opacity="0.4"/>
 
-  <!-- === 鍥藉唴 鈫?涓や釜瀛愯妭鐐?(瀵圭О 卤90px锛岃搴︿竴鑷? === -->
+  <!-- === 国内 → 两个子节点 (对称 ±90px，角度一致) === -->
   <line x1="980" y1="660" x2="1020" y2="570" stroke="#ff6ac1" stroke-width="1.8" opacity="0.4"/>
   <line x1="980" y1="660" x2="1020" y2="750" stroke="#ff6ac1" stroke-width="1.8" opacity="0.4"/>
 
-  <!-- === 鎼缓鍘熺悊 鈫?鍥涗釜鍙跺瓙 === -->
+  <!-- === 搭建原理 → 四个叶子 === -->
   <line x1="420" y1="460" x2="280" y2="336" stroke="#3a9990" stroke-width="1.2" opacity="0.35"/>
   <line x1="420" y1="460" x2="280" y2="416" stroke="#3a9990" stroke-width="1.2" opacity="0.35"/>
   <line x1="420" y1="460" x2="280" y2="496" stroke="#3a9990" stroke-width="1.2" opacity="0.35"/>
   <line x1="420" y1="460" x2="280" y2="581" stroke="#3a9990" stroke-width="1.2" opacity="0.35"/>
 
-  <!-- === 鍩虹澶фā鍨?鍥藉) 鈫?鍥涗釜鍙跺瓙 (瀵圭О 卤17.5, 卤52.5) === -->
+  <!-- === 基础大模型(国外) → 四个叶子 (对称 ±17.5, ±52.5) === -->
   <line x1="1140" y1="150" x2="1180" y2="98"  stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="150" x2="1180" y2="133" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="150" x2="1180" y2="168" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="150" x2="1180" y2="203" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
 
-  <!-- === 缂栫▼宸ュ叿(鍥藉) 鈫?浜斾釜鍙跺瓙 (瀵圭О 卤0, 卤35, 卤70) === -->
+  <!-- === 编程工具(国外) → 五个叶子 (对称 ±0, ±35, ±70) === -->
   <line x1="1140" y1="330" x2="1180" y2="260" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="330" x2="1180" y2="295" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="330" x2="1180" y2="330" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="330" x2="1180" y2="365" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="330" x2="1180" y2="400" stroke="#3388aa" stroke-width="1.2" opacity="0.35"/>
 
-  <!-- === 鍩虹澶фā鍨?鍥藉唴) 鈫?浜斾釜鍙跺瓙 (瀵圭О 卤0, 卤35, 卤70) === -->
+  <!-- === 基础大模型(国内) → 五个叶子 (对称 ±0, ±35, ±70) === -->
   <line x1="1140" y1="570" x2="1180" y2="500" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="570" x2="1180" y2="535" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="570" x2="1180" y2="570" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="570" x2="1180" y2="605" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="570" x2="1180" y2="640" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
 
-  <!-- === 缂栫▼宸ュ叿(鍥藉唴) 鈫?鍥涗釜鍙跺瓙 (瀵圭О 卤17.5, 卤52.5) === -->
+  <!-- === 编程工具(国内) → 四个叶子 (对称 ±17.5, ±52.5) === -->
   <line x1="1140" y1="750" x2="1180" y2="698" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="750" x2="1180" y2="733" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="750" x2="1180" y2="768" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
   <line x1="1140" y1="750" x2="1180" y2="803" stroke="#aa4477" stroke-width="1.2" opacity="0.35"/>
 
 
-  <!-- ===================== 鑺傜偣灞?===================== -->
+  <!-- ===================== 节点层 ===================== -->
 
-  <!-- ===== 涓績鑺傜偣 ===== -->
+  <!-- ===== 中心节点 ===== -->
   <g filter="url(#shadow)">
     <circle cx="700" cy="460" r="80" fill="url(#centerGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
     <circle cx="700" cy="460" r="80" fill="none" stroke="rgba(123,47,247,0.35)" stroke-width="1" stroke-dasharray="5,5"/>
-    <text x="700" y="447" text-anchor="middle" fill="#e8e0ff" font-size="14" font-weight="700">涓绘祦AI宸ュ叿涓庡ぇ妯″瀷</text>
-    <text x="700" y="465" text-anchor="middle" fill="#b0a0d0" font-size="11" font-weight="500">鍥藉唴 / 鍥藉鍏ㄦ櫙</text>
+    <text x="700" y="447" text-anchor="middle" fill="#e8e0ff" font-size="14" font-weight="700">主流AI工具与大模型</text>
+    <text x="700" y="465" text-anchor="middle" fill="#b0a0d0" font-size="11" font-weight="500">国内 / 国外全景</text>
     <text x="700" y="480" text-anchor="middle" fill="#8a7db0" font-size="9">AI Tools &amp; LLMs Landscape</text>
   </g>
 
-  <!-- ===== 鍥藉 ===== -->
+  <!-- ===== 国外 ===== -->
   <g filter="url(#shadow)">
     <rect x="880" y="214" width="100" height="52" rx="10" fill="rgba(0,170,230,0.18)" stroke="#00d2ff" stroke-width="1.5"/>
-    <text x="930" y="236" text-anchor="middle" fill="#00d2ff" font-size="14" font-weight="700">鍥?澶?/text>
+    <text x="930" y="236" text-anchor="middle" fill="#00d2ff" font-size="14" font-weight="700">国 外</text>
     <text x="930" y="254" text-anchor="middle" fill="#5599bb" font-size="10">International</text>
   </g>
 
-  <!-- 鍥藉 路 鍩虹澶фā鍨?(center y=150) -->
+  <!-- 国外 · 基础大模型 (center y=150) -->
   <g filter="url(#shadow)">
     <rect x="1020" y="125" width="120" height="50" rx="8" fill="rgba(0,170,230,0.12)" stroke="rgba(0,210,255,0.4)" stroke-width="1"/>
-    <text x="1080" y="147" text-anchor="middle" fill="#88ccdd" font-size="12" font-weight="600">鍩虹澶фā鍨?/text>
+    <text x="1080" y="147" text-anchor="middle" fill="#88ccdd" font-size="12" font-weight="600">基础大模型</text>
     <text x="1080" y="163" text-anchor="middle" fill="#6699aa" font-size="9">Foundation Models</text>
   </g>
-  <!-- 鍙跺瓙: 涓績y=98,133,168,203 h=30 -->
+  <!-- 叶子: 中心y=98,133,168,203 h=30 -->
   <g>
     <rect x="1180" y="83"  width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="103" text-anchor="middle" fill="#99ccee" font-size="11">GPT-4o / 4.1 路 OpenAI</text>
+    <text x="1260" y="103" text-anchor="middle" fill="#99ccee" font-size="11">GPT-4o / 4.1 · OpenAI</text>
   </g>
   <g>
     <rect x="1180" y="118" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="138" text-anchor="middle" fill="#99ccee" font-size="11">Claude 4 路 Anthropic</text>
+    <text x="1260" y="138" text-anchor="middle" fill="#99ccee" font-size="11">Claude 4 · Anthropic</text>
   </g>
   <g>
     <rect x="1180" y="153" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="173" text-anchor="middle" fill="#99ccee" font-size="11">Gemini 2.5 Pro 路 Google</text>
+    <text x="1260" y="173" text-anchor="middle" fill="#99ccee" font-size="11">Gemini 2.5 Pro · Google</text>
   </g>
   <g>
     <rect x="1180" y="188" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="208" text-anchor="middle" fill="#99ccee" font-size="11">Llama 4 路 Meta</text>
+    <text x="1260" y="208" text-anchor="middle" fill="#99ccee" font-size="11">Llama 4 · Meta</text>
   </g>
 
-  <!-- 鍥藉 路 缂栫▼涓庝唬鐞嗗伐鍏?(center y=330) -->
+  <!-- 国外 · 编程与代理工具 (center y=330) -->
   <g filter="url(#shadow)">
     <rect x="1020" y="308" width="120" height="44" rx="8" fill="rgba(0,170,230,0.12)" stroke="rgba(0,210,255,0.4)" stroke-width="1"/>
-    <text x="1080" y="328" text-anchor="middle" fill="#88ccdd" font-size="11" font-weight="600">缂栫▼涓庝唬鐞嗗伐鍏?/text>
+    <text x="1080" y="328" text-anchor="middle" fill="#88ccdd" font-size="11" font-weight="600">编程与代理工具</text>
     <text x="1080" y="343" text-anchor="middle" fill="#6699aa" font-size="9">Coding &amp; Agent</text>
   </g>
-  <!-- 鍙跺瓙: 涓績y=260,295,330,365,400 h=30 -->
+  <!-- 叶子: 中心y=260,295,330,365,400 h=30 -->
   <g>
     <rect x="1180" y="245" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="265" text-anchor="middle" fill="#99ccee" font-size="11">ChatGPT 路 OpenAI</text>
+    <text x="1260" y="265" text-anchor="middle" fill="#99ccee" font-size="11">ChatGPT · OpenAI</text>
   </g>
   <g>
     <rect x="1180" y="280" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="300" text-anchor="middle" fill="#99ccee" font-size="11">Claude Code 路 Anthropic</text>
+    <text x="1260" y="300" text-anchor="middle" fill="#99ccee" font-size="11">Claude Code · Anthropic</text>
   </g>
   <g>
     <rect x="1180" y="315" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="335" text-anchor="middle" fill="#99ccee" font-size="11">Codex CLI 路 OpenAI</text>
+    <text x="1260" y="335" text-anchor="middle" fill="#99ccee" font-size="11">Codex CLI · OpenAI</text>
   </g>
   <g>
     <rect x="1180" y="350" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="370" text-anchor="middle" fill="#99ccee" font-size="11">GitHub Copilot 路 Microsoft</text>
+    <text x="1260" y="370" text-anchor="middle" fill="#99ccee" font-size="11">GitHub Copilot · Microsoft</text>
   </g>
   <g>
     <rect x="1180" y="385" width="160" height="30" rx="6" fill="rgba(0,140,200,0.1)" stroke="rgba(0,180,240,0.25)" stroke-width="1"/>
-    <text x="1260" y="405" text-anchor="middle" fill="#99ccee" font-size="11">Cursor 路 Anysphere</text>
+    <text x="1260" y="405" text-anchor="middle" fill="#99ccee" font-size="11">Cursor · Anysphere</text>
   </g>
 
-  <!-- ===== 鍥藉唴 ===== -->
+  <!-- ===== 国内 ===== -->
   <g filter="url(#shadow)">
     <rect x="880" y="634" width="100" height="52" rx="10" fill="rgba(255,80,160,0.15)" stroke="#ff6ac1" stroke-width="1.5"/>
-    <text x="930" y="656" text-anchor="middle" fill="#ff6ac1" font-size="14" font-weight="700">鍥?鍐?/text>
+    <text x="930" y="656" text-anchor="middle" fill="#ff6ac1" font-size="14" font-weight="700">国 内</text>
     <text x="930" y="674" text-anchor="middle" fill="#cc6699" font-size="10">Domestic</text>
   </g>
 
-  <!-- 鍥藉唴 路 鍩虹澶фā鍨?(center y=570) -->
+  <!-- 国内 · 基础大模型 (center y=570) -->
   <g filter="url(#shadow)">
     <rect x="1020" y="545" width="120" height="50" rx="8" fill="rgba(255,80,160,0.1)" stroke="rgba(255,106,193,0.35)" stroke-width="1"/>
-    <text x="1080" y="567" text-anchor="middle" fill="#dd88aa" font-size="12" font-weight="600">鍩虹澶фā鍨?/text>
+    <text x="1080" y="567" text-anchor="middle" fill="#dd88aa" font-size="12" font-weight="600">基础大模型</text>
     <text x="1080" y="583" text-anchor="middle" fill="#aa6688" font-size="9">Foundation Models</text>
   </g>
-  <!-- 鍙跺瓙: 涓績y=500,535,570,605,640 h=30 -->
+  <!-- 叶子: 中心y=500,535,570,605,640 h=30 -->
   <g>
     <rect x="1180" y="485" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="505" text-anchor="middle" fill="#cc88aa" font-size="11">DeepSeek V3/R1 路 娣卞害姹傜储</text>
+    <text x="1260" y="505" text-anchor="middle" fill="#cc88aa" font-size="11">DeepSeek V3/R1 · 深度求索</text>
   </g>
   <g>
     <rect x="1180" y="520" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="540" text-anchor="middle" fill="#cc88aa" font-size="11">Qwen 路 闃块噷宸村反</text>
+    <text x="1260" y="540" text-anchor="middle" fill="#cc88aa" font-size="11">Qwen · 阿里巴巴</text>
   </g>
   <g>
     <rect x="1180" y="555" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="575" text-anchor="middle" fill="#cc88aa" font-size="11">璞嗗寘 Seed 路 瀛楄妭璺冲姩</text>
+    <text x="1260" y="575" text-anchor="middle" fill="#cc88aa" font-size="11">豆包 Seed · 字节跳动</text>
   </g>
   <g>
     <rect x="1180" y="590" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="610" text-anchor="middle" fill="#cc88aa" font-size="11">ERNIE 路 鐧惧害</text>
+    <text x="1260" y="610" text-anchor="middle" fill="#cc88aa" font-size="11">ERNIE · 百度</text>
   </g>
   <g>
     <rect x="1180" y="625" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="645" text-anchor="middle" fill="#cc88aa" font-size="11">Kimi 路 鏈堜箣鏆楅潰</text>
+    <text x="1260" y="645" text-anchor="middle" fill="#cc88aa" font-size="11">Kimi · 月之暗面</text>
   </g>
 
-  <!-- 鍥藉唴 路 缂栫▼涓庝唬鐞嗗伐鍏?(center y=750) -->
+  <!-- 国内 · 编程与代理工具 (center y=750) -->
   <g filter="url(#shadow)">
     <rect x="1020" y="728" width="120" height="44" rx="8" fill="rgba(255,80,160,0.1)" stroke="rgba(255,106,193,0.35)" stroke-width="1"/>
-    <text x="1080" y="748" text-anchor="middle" fill="#dd88aa" font-size="11" font-weight="600">缂栫▼涓庝唬鐞嗗伐鍏?/text>
+    <text x="1080" y="748" text-anchor="middle" fill="#dd88aa" font-size="11" font-weight="600">编程与代理工具</text>
     <text x="1080" y="763" text-anchor="middle" fill="#aa6688" font-size="9">Coding &amp; Agent</text>
   </g>
-  <!-- 鍙跺瓙: 涓績y=698,733,768,803 h=30 -->
+  <!-- 叶子: 中心y=698,733,768,803 h=30 -->
   <g>
     <rect x="1180" y="683" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="703" text-anchor="middle" fill="#cc88aa" font-size="11">Trae 路 瀛楄妭璺冲姩</text>
+    <text x="1260" y="703" text-anchor="middle" fill="#cc88aa" font-size="11">Trae · 字节跳动</text>
   </g>
   <g>
     <rect x="1180" y="718" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="738" text-anchor="middle" fill="#cc88aa" font-size="11">閫氫箟鐏电爜 路 闃块噷</text>
+    <text x="1260" y="738" text-anchor="middle" fill="#cc88aa" font-size="11">通义灵码 · 阿里</text>
   </g>
   <g>
     <rect x="1180" y="753" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="773" text-anchor="middle" fill="#cc88aa" font-size="11">CodeBuddy 路 鑵捐</text>
+    <text x="1260" y="773" text-anchor="middle" fill="#cc88aa" font-size="11">CodeBuddy · 腾讯</text>
   </g>
   <g>
     <rect x="1180" y="788" width="160" height="30" rx="6" fill="rgba(200,60,120,0.08)" stroke="rgba(255,100,180,0.2)" stroke-width="1"/>
-    <text x="1260" y="808" text-anchor="middle" fill="#cc88aa" font-size="11">Comate 路 鐧惧害</text>
+    <text x="1260" y="808" text-anchor="middle" fill="#cc88aa" font-size="11">Comate · 百度</text>
   </g>
 
-  <!-- ===== 鎼缓鍘熺悊 ===== -->
+  <!-- ===== 搭建原理 ===== -->
   <g filter="url(#shadow)">
     <rect x="420" y="434" width="130" height="52" rx="10" fill="rgba(77,182,172,0.15)" stroke="#4db6ac" stroke-width="1.5"/>
-    <text x="485" y="456" text-anchor="middle" fill="#4db6ac" font-size="13" font-weight="700">鎼缓鍘熺悊</text>
+    <text x="485" y="456" text-anchor="middle" fill="#4db6ac" font-size="13" font-weight="700">搭建原理</text>
     <text x="485" y="474" text-anchor="middle" fill="#5a9e96" font-size="9">Building Principles</text>
   </g>
-  <!-- 鍙跺瓙: 涓績y=336,416,496,581 -->
+  <!-- 叶子: 中心y=336,416,496,581 -->
   <g>
     <rect x="80" y="319" width="200" height="34" rx="6" fill="rgba(60,150,140,0.1)" stroke="rgba(77,182,172,0.3)" stroke-width="1"/>
-    <text x="180" y="341" text-anchor="middle" fill="#7cc8be" font-size="11">娴烽噺鏁版嵁棰勮缁?/text>
+    <text x="180" y="341" text-anchor="middle" fill="#7cc8be" font-size="11">海量数据预训练</text>
   </g>
   <g>
     <rect x="80" y="399" width="200" height="34" rx="6" fill="rgba(60,150,140,0.1)" stroke="rgba(77,182,172,0.3)" stroke-width="1"/>
-    <text x="180" y="421" text-anchor="middle" fill="#7cc8be" font-size="11">鎸囦护寰皟 + RLHF</text>
+    <text x="180" y="421" text-anchor="middle" fill="#7cc8be" font-size="11">指令微调 + RLHF</text>
   </g>
   <g>
     <rect x="80" y="479" width="200" height="34" rx="6" fill="rgba(60,150,140,0.1)" stroke="rgba(77,182,172,0.3)" stroke-width="1"/>
-    <text x="180" y="501" text-anchor="middle" fill="#7cc8be" font-size="11">宸ュ叿璋冪敤涓庝唬鐞嗗寲</text>
+    <text x="180" y="501" text-anchor="middle" fill="#7cc8be" font-size="11">工具调用与代理化</text>
   </g>
   <g>
     <rect x="80" y="559" width="200" height="44" rx="6" fill="rgba(60,150,140,0.08)" stroke="rgba(77,182,172,0.25)" stroke-width="1"/>
-    <text x="180" y="577" text-anchor="middle" fill="#6aafa5" font-size="10">鏈€缁堝舰鎴?/text>
+    <text x="180" y="577" text-anchor="middle" fill="#6aafa5" font-size="10">最终形成</text>
     <text x="180" y="593" text-anchor="middle" fill="#7cc8be" font-size="10" font-weight="600">ChatGPT / Claude Code / Trae</text>
   </g>
 
-  <!-- ===== 鍥句緥 ===== -->
+  <!-- ===== 图例 ===== -->
   <g transform="translate(80,890)">
     <rect x="0" y="-10" width="12" height="12" rx="3" fill="rgba(0,170,230,0.25)" stroke="#00d2ff" stroke-width="0.8"/>
-    <text x="18" y="0" fill="#777" font-size="10">娴峰 International</text>
+    <text x="18" y="0" fill="#777" font-size="10">海外 International</text>
     <rect x="170" y="-10" width="12" height="12" rx="3" fill="rgba(255,80,160,0.2)" stroke="#ff6ac1" stroke-width="0.8"/>
-    <text x="188" y="0" fill="#777" font-size="10">鍥藉唴 Domestic</text>
+    <text x="188" y="0" fill="#777" font-size="10">国内 Domestic</text>
     <rect x="320" y="-10" width="12" height="12" rx="3" fill="rgba(77,182,172,0.2)" stroke="#4db6ac" stroke-width="0.8"/>
-    <text x="338" y="0" fill="#777" font-size="10">鎼缓鍘熺悊 Principles</text>
-    <text x="530" y="0" fill="#555" font-size="9">灞傜骇锛氫腑蹇?鈫?鍒嗙被 鈫?瀛愮被 鈫?鍏蜂綋宸ュ叿</text>
+    <text x="338" y="0" fill="#777" font-size="10">搭建原理 Principles</text>
+    <text x="530" y="0" fill="#555" font-size="9">层级：中心 → 分类 → 子类 → 具体工具</text>
   </g>
 
 </svg>
@@ -440,28 +438,28 @@
 <div class="section-divider"></div>
 
 <div class="table-section">
-  <h2>馃搳 涓绘祦 AI 宸ュ叿瀵规瘮閫熸煡琛?/h2>
+  <h2>📊 主流 AI 工具对比速查表</h2>
   <div class="table-wrap">
   <table>
     <colgroup>
       <col><col><col><col><col>
     </colgroup>
     <thead>
-      <tr><th>鍦板尯</th><th>宸ュ叿</th><th>寮€鍙戝晢</th><th>鏍稿績鑳藉姏</th><th>閫傚悎鍦烘櫙</th></tr>
+      <tr><th>地区</th><th>工具</th><th>开发商</th><th>核心能力</th><th>适合场景</th></tr>
     </thead>
     <tbody>
-      <tr><td class="region-intl">娴峰</td><td><b>ChatGPT</b></td><td>OpenAI</td><td>瀵硅瘽/鍥剧墖/鎼滅储/鎻掍欢</td><td>鍏ㄨ兘鍔╂墜</td></tr>
-      <tr><td class="region-intl">娴峰</td><td><b>Claude</b></td><td>Anthropic</td><td>闀挎枃鏈?浠ｇ爜/鍒嗘瀽</td><td>娣卞害鍐欎綔/鎺ㄧ悊</td></tr>
-      <tr><td class="region-intl">娴峰</td><td><b>Claude Code</b></td><td>Anthropic</td><td>鍛戒护琛岀紪绋嬩唬鐞?/td><td>杞欢寮€鍙?/td></tr>
-      <tr><td class="region-intl">娴峰</td><td><b>Cursor</b></td><td>Anysphere</td><td>AI IDE/浠ｇ爜瀵硅瘽</td><td>鍓嶅悗绔紑鍙?/td></tr>
-      <tr><td class="region-intl">娴峰</td><td><b>Codex</b></td><td>OpenAI</td><td>浜戠浠ｇ爜/鑷姩鍖?/td><td>鑴氭湰/鑷姩鍖?/td></tr>
-      <tr><td class="region-intl">娴峰</td><td><b>Gemini</b></td><td>Google</td><td>鎼滅储鏁村悎/澶氭ā鎬?/td><td>淇℃伅妫€绱?/td></tr>
-      <tr><td class="region-domestic">鍥藉唴</td><td><b>Trae</b></td><td>瀛楄妭璺冲姩</td><td>AI IDE/绫籆ursor</td><td>鍓嶇/鍏ㄦ爤</td></tr>
-      <tr><td class="region-domestic">鍥藉唴</td><td><b>閫氫箟鐏电爜</b></td><td>闃块噷宸村反</td><td>IDE鎻掍欢+鐙珛IDE</td><td>Java/Python</td></tr>
-      <tr><td class="region-domestic">鍥藉唴</td><td><b>璞嗗寘</b></td><td>瀛楄妭璺冲姩</td><td>瀵硅瘽/鎼滅储/鍥剧墖</td><td>鏃ュ父/鍒涗綔</td></tr>
-      <tr><td class="region-domestic">鍥藉唴</td><td><b>DeepSeek</b></td><td>娣卞害姹傜储</td><td>寮€婧?瀵硅瘽/缂栫▼</td><td>鎶€鏈?API</td></tr>
-      <tr><td class="region-domestic">鍥藉唴</td><td><b>Kimi</b></td><td>鏈堜箣鏆楅潰</td><td>瓒呴暱涓婁笅鏂?00K+</td><td>闀挎枃妗?璁烘枃</td></tr>
-      <tr><td class="region-domestic">鍥藉唴</td><td><b>鏂囧績涓€瑷€</b></td><td>鐧惧害</td><td>瀵硅瘽/鎼滅储鏁村悎</td><td>鐧惧害鐢熸€?/td></tr>
+      <tr><td class="region-intl">海外</td><td><b>ChatGPT</b></td><td>OpenAI</td><td>对话/图片/搜索/插件</td><td>全能助手</td></tr>
+      <tr><td class="region-intl">海外</td><td><b>Claude</b></td><td>Anthropic</td><td>长文本/代码/分析</td><td>深度写作/推理</td></tr>
+      <tr><td class="region-intl">海外</td><td><b>Claude Code</b></td><td>Anthropic</td><td>命令行编程代理</td><td>软件开发</td></tr>
+      <tr><td class="region-intl">海外</td><td><b>Cursor</b></td><td>Anysphere</td><td>AI IDE/代码对话</td><td>前后端开发</td></tr>
+      <tr><td class="region-intl">海外</td><td><b>Codex</b></td><td>OpenAI</td><td>云端代码/自动化</td><td>脚本/自动化</td></tr>
+      <tr><td class="region-intl">海外</td><td><b>Gemini</b></td><td>Google</td><td>搜索整合/多模态</td><td>信息检索</td></tr>
+      <tr><td class="region-domestic">国内</td><td><b>Trae</b></td><td>字节跳动</td><td>AI IDE/类Cursor</td><td>前端/全栈</td></tr>
+      <tr><td class="region-domestic">国内</td><td><b>通义灵码</b></td><td>阿里巴巴</td><td>IDE插件+独立IDE</td><td>Java/Python</td></tr>
+      <tr><td class="region-domestic">国内</td><td><b>豆包</b></td><td>字节跳动</td><td>对话/搜索/图片</td><td>日常/创作</td></tr>
+      <tr><td class="region-domestic">国内</td><td><b>DeepSeek</b></td><td>深度求索</td><td>开源/对话/编程</td><td>技术/API</td></tr>
+      <tr><td class="region-domestic">国内</td><td><b>Kimi</b></td><td>月之暗面</td><td>超长上下文200K+</td><td>长文档/论文</td></tr>
+      <tr><td class="region-domestic">国内</td><td><b>文心一言</b></td><td>百度</td><td>对话/搜索整合</td><td>百度生态</td></tr>
     </tbody>
   </table>
   </div>
@@ -469,63 +467,66 @@
 
 <div class="section-divider"></div>
 
-<div class="table-section"><h2>馃敡 AI 宸ュ叿鐨勬惌寤哄師鐞嗭紙涓夊眰鏋舵瀯锛?/h2></div>
+<div class="table-section"><h2>🔧 AI 工具的搭建原理（三层架构）</h2></div>
 <div class="principle-grid" style="margin-top:16px;">
-  <div class="step"><h4>鈶?璁粌澶фā鍨嬶紙搴曞眰锛?/h4><p>鐢ㄦ捣閲忔枃鏈紙涔︾睄銆佺綉椤点€佷唬鐮侊級瀵圭缁忕綉缁滆繘琛岄璁粌锛屼娇鍏跺浼氳瑷€瑙勫緥銆?br>绫绘瘮锛氫竴涓杩囦簰鑱旂綉鎵€鏈変功绫嶇殑"瓒呯骇瀛︾敓"銆?br>鍏抽敭鎶€鏈細<code>Transformer</code> 鏋舵瀯 + <code>RLHF</code> 浜虹被鍙嶉寮哄寲瀛︿範銆?br>鎴愭湰锛氳缁冧竴娆￠渶瑕佹暟鍗冧竾~鏁颁嚎缇庡厓銆?/p></div>
-  <div class="step"><h4>鈶?API 寮€鏀撅紙涓棿灞傦級</h4><p>鍘傚晢灏嗗ぇ妯″瀷灏佽涓?<code>API</code>锛屾寜璋冪敤娆℃暟/Token 鏀惰垂銆?br>寮€鍙戣€呮棤闇€鑷繁璁粌妯″瀷锛岃皟鐢?API 鍗冲彲鑾峰緱 AI 鑳藉姏銆?br>绫绘瘮锛氭按鐢靛叕鍙稿彂鐢?鈫?浣犲鎻掍笂鎻掑ご灏辫兘鐢ㄧ數銆?br>鍏稿瀷浠锋牸锛氱害 楼0.01~0.1 / 鍗?Token锛? Token 鈮?0.75 涓嫳鏂囧崟璇嶏級銆?/p></div>
-  <div class="step"><h4>鈶?浜у搧鍖呰锛堝簲鐢ㄥ眰锛?/h4><p>鍦?API 鍩虹涓婃坊鍔?UI 鐣岄潰銆佽蹇嗙郴缁熴€佸伐鍏疯皟鐢ㄣ€佹枃浠朵笂浼犵瓑鍔熻兘銆?br><b>ChatGPT</b> = GPT API + 瀵硅瘽鐣岄潰 + 鎻掍欢绯荤粺 + 鑱旂綉鎼滅储<br><b>Claude Code</b> = Claude API + 缁堢鐜 + 鏂囦欢璇诲啓 + Git 鎿嶄綔<br><b>Trae</b> = 璞嗗寘 API + VS Code 缂栬緫鍣?+ 椤圭洰涓婁笅鏂囨劅鐭?br><b>Copilot</b> = GPT/Claude API + IDE 鎻掍欢 + 浠ｇ爜琛ュ叏閫昏緫</p></div>
-  <div class="step"><h4>鈶?Agent 鑷富浠ｇ悊锛堟渶鏂拌秼鍔匡級</h4><p>璁?AI 涓嶅彧鏄洖绛旈棶棰橈紝鑰屾槸鑷富瑙勫垝銆佽皟鐢ㄥ伐鍏枫€佹墽琛屽姝ラ浠诲姟銆?br>渚嬪 Claude Code锛氫綘璇?甯垜閲嶆瀯杩欎釜椤圭洰"锛屽畠浼氾細<br><code>1. 璇诲彇鎵€鏈夋枃浠?/code> 鈫?<code>2. 鍒嗘瀽浠ｇ爜缁撴瀯</code> 鈫?<code>3. 鍒跺畾閲嶆瀯璁″垝</code> 鈫?<code>4. 閫愪釜淇敼鏂囦欢</code> 鈫?<code>5. 杩愯娴嬭瘯楠岃瘉</code><br>杩欏氨鏄?<b>AI Agent</b> 鈥?浠?宸ュ叿"杩涘寲涓?鍔╂墜"銆?/p></div>
+  <div class="step"><h4>① 训练大模型（底层）</h4><p>用海量文本（书籍、网页、代码）对神经网络进行预训练，使其学会语言规律。<br>类比：一个读过互联网所有书籍的"超级学生"。<br>关键技术：<code>Transformer</code> 架构 + <code>RLHF</code> 人类反馈强化学习。<br>成本：训练一次需要数千万~数亿美元。</p></div>
+  <div class="step"><h4>② API 开放（中间层）</h4><p>厂商将大模型封装为 <code>API</code>，按调用次数/Token 收费。<br>开发者无需自己训练模型，调用 API 即可获得 AI 能力。<br>类比：水电公司发电 → 你家插上插头就能用电。<br>典型价格：约 ¥0.01~0.1 / 千 Token（1 Token ≈ 0.75 个英文单词）。</p></div>
+  <div class="step"><h4>③ 产品包装（应用层）</h4><p>在 API 基础上添加 UI 界面、记忆系统、工具调用、文件上传等功能。<br><b>ChatGPT</b> = GPT API + 对话界面 + 插件系统 + 联网搜索<br><b>Claude Code</b> = Claude API + 终端环境 + 文件读写 + Git 操作<br><b>Trae</b> = 豆包 API + VS Code 编辑器 + 项目上下文感知<br><b>Copilot</b> = GPT/Claude API + IDE 插件 + 代码补全逻辑</p></div>
+  <div class="step"><h4>④ Agent 自主代理（最新趋势）</h4><p>让 AI 不只是回答问题，而是自主规划、调用工具、执行多步骤任务。<br>例如 Claude Code：你说"帮我重构这个项目"，它会：<br><code>1. 读取所有文件</code> → <code>2. 分析代码结构</code> → <code>3. 制定重构计划</code> → <code>4. 逐个修改文件</code> → <code>5. 运行测试验证</code><br>这就是 <b>AI Agent</b> — 从"工具"进化为"助手"。</p></div>
 </div>
 
 <div class="section-divider"></div>
 
 <div class="summary-box">
-  <h3>馃挕 涓€鍙ヨ瘽鐞嗚В AI 宸ュ叿</h3>
+  <h3>💡 一句话理解 AI 工具</h3>
   <p>
-    <b>澶фā鍨?/b>鏄紩鎿庯紝<b>AI 宸ュ叿</b>鏄溅锛?b>浣?/b>鏄徃鏈恒€?br>
-    娴峰 <span style="color:#00d2ff;">钃濊壊绯?/span> = OpenAI / Anthropic / Google 椹卞姩锛涘浗鍐?<span style="color:#ff6ac1;">绮夎壊绯?/span> = 闃块噷 / 瀛楄妭 / 鐧惧害 / 鏈堜箣鏆楅潰椹卞姩銆?br>
-    <b>ChatGPT</b> 鏄竾鑳界憺澹啗鍒€锛?b>Claude Code</b> 鏄▼搴忓憳涓撳睘锛?b>Trae</b> 鏄浗浜?Cursor 骞虫浛锛?b>Kimi</b> 鎿呴暱闀挎枃妗ｅ鐞嗐€?br>
-    閫夊摢涓紵<span style="color:#66bb6a;">鐪嬩綘鐢ㄥ畠鍋氫粈涔堛€?/span>
+    <b>大模型</b>是引擎，<b>AI 工具</b>是车，<b>你</b>是司机。<br>
+    海外 <span style="color:#00d2ff;">蓝色系</span> = OpenAI / Anthropic / Google 驱动；国内 <span style="color:#ff6ac1;">粉色系</span> = 阿里 / 字节 / 百度 / 月之暗面驱动。<br>
+    <b>ChatGPT</b> 是万能瑞士军刀，<b>Claude Code</b> 是程序员专属，<b>Trae</b> 是国产 Cursor 平替，<b>Kimi</b> 擅长长文档处理。<br>
+    选哪个？<span style="color:#66bb6a;">看你用它做什么。</span>
   </p>
 </div>
 
 <div class="section-divider"></div>
 
-<!-- ===== 鐢熸垚璇存槑 ===== -->
+<!-- ===== 生成说明 ===== -->
 <div class="summary-box" style="margin-top:0;">
-  <h3 style="color:#88ccdd;">馃 鏈〉闈㈢敱 MiMo AI 鐢熸垚</h3>
+  <h3 style="color:#88ccdd;">🤖 本页面由 MiMo AI 生成</h3>
   <p style="margin-bottom:12px;">
-    鏈〉闈㈡墍鏈夊唴瀹广€丼VG 鎬濈淮瀵煎浘銆佹暟鎹〃鏍煎強鏍峰紡鍧囩敱 <b>MiMo Code Agent</b>锛堝皬绫宠嚜鐮?AI 缂栫▼鍔╂墜锛夋牴鎹敤鎴峰璇濇寚浠よ嚜鍔ㄧ敓鎴愶紝鏃犻渶鎵嬪姩缂栧啓浠ｇ爜銆?  </p>
+    本页面所有内容、SVG 思维导图、数据表格及样式均由 <b>MiMo Code Agent</b>（小米自研 AI 编程助手）根据用户对话指令自动生成，无需手动编写代码。
+  </p>
   <div style="background:rgba(255,255,255,0.04); border-radius:8px; padding:14px 18px; border:1px solid rgba(255,255,255,0.06);">
-    <p style="color:#999; font-size:11px; margin-bottom:6px; font-weight:600;">瀹屾暣鎻愮ず璇嶏紙Prompt锛夛細</p>
+    <p style="color:#999; font-size:11px; margin-bottom:6px; font-weight:600;">完整提示词（Prompt）：</p>
     <p style="color:#bbb; font-size:12px; line-height:1.8; font-style:italic;">
-      "甯垜鍒朵綔涓€涓富娴丄I宸ュ叿涓庡ぇ妯″瀷鐨勫垎绫诲叏鏅浘缃戦〉銆傞〉闈㈠寘鍚細<br>
-      鈶?SVG 鎬濈淮瀵煎浘锛屼腑蹇冭妭鐐硅繛鎺ヤ笁涓垎鏀€斺€旀惌寤哄師鐞嗭紙闈掔豢鑹诧級銆佸浗澶栵紙钃濊壊绯伙級銆佸浗鍐咃紙绮夎壊绯伙級锛屾瘡涓垎鏀笅鏈夊熀纭€澶фā鍨嬪拰缂栫▼涓庝唬鐞嗗伐鍏蜂袱涓瓙鑺傜偣锛屽瓙鑺傜偣鍐嶅睍寮€鍏蜂綋宸ュ叿鍙跺瓙鑺傜偣锛屾墍鏈夎繛绾夸弗鏍艰繛鎺ュ埌鑺傜偣杈规锛屽瓙鑺傜偣閲囩敤涓嫳鏂囧弻璇紝鍙跺瓙鑺傜偣缁熶竴涓?妯″瀷鍚?路 鍏徃鍚?鏍煎紡锛屽浗澶栧拰鍥藉唴瀛愯妭鐐瑰绉板垎甯冦€佽繛绾垮紑鍚堣搴︿竴鑷达紱<br>
-      鈶?AI 宸ュ叿瀵规瘮閫熸煡琛紝鍖呭惈鍦板尯銆佸伐鍏峰悕绉般€佸紑鍙戝晢銆佹牳蹇冭兘鍔涖€侀€傚悎鍦烘櫙浜斿垪锛屾枃瀛楀眳涓紝鍒楀鑷€傚簲鍐呭锛?br>
-      鈶?鎼缓鍘熺悊璇存槑锛岀敤鍥涘鏍煎睍绀轰粠璁粌澶фā鍨嬪埌 API 寮€鏀俱€佷骇鍝佸寘瑁呫€丄gent 鑷富浠ｇ悊鐨勪笁灞傛灦鏋勶紱<br>
-      鈶?涓€鍙ヨ瘽鎬荤粨鍜?MiMo Code 瀹夎璇存槑銆?br>
-      鏁翠綋椋庢牸涓烘繁鑹茬郴绉戞妧鎰燂紝涓ヨ皑缇庤锛岄€傞厤鎵嬫満绔祻瑙堛€傜洿鎺ユ斁鍦ㄦ闈笂銆?
+      "帮我制作一个主流AI工具与大模型的分类全景图网页。页面包含：<br>
+      ① SVG 思维导图，中心节点连接三个分支——搭建原理（青绿色）、国外（蓝色系）、国内（粉色系），每个分支下有基础大模型和编程与代理工具两个子节点，子节点再展开具体工具叶子节点，所有连线严格连接到节点边框，子节点采用中英文双语，叶子节点统一为'模型名 · 公司名'格式，国外和国内子节点对称分布、连线开合角度一致；<br>
+      ② AI 工具对比速查表，包含地区、工具名称、开发商、核心能力、适合场景五列，文字居中，列宽自适应内容；<br>
+      ③ 搭建原理说明，用四宫格展示从训练大模型到 API 开放、产品包装、Agent 自主代理的三层架构；<br>
+      ④ 一句话总结和 MiMo Code 安装说明。<br>
+      整体风格为深色系科技感，严谨美观，适配手机端浏览。直接放在桌面上。"
     </p>
   </div>
 </div>
 
 <div class="section-divider"></div>
 
-<!-- ===== MiMoCode 瀹夎璇存槑 ===== -->
+<!-- ===== MiMoCode 安装说明 ===== -->
 <div class="summary-box" style="margin-top:0; border: 1px solid rgba(123,47,247,0.25);">
-  <h3 style="color:#b388ff;">馃洜锔?MiMoCode 鈥?灏忕背鑷爺 AI 缂栫▼鍔╂墜</h3>
+  <h3 style="color:#b388ff;">🛠️ MiMoCode — 小米自研 AI 编程助手</h3>
   <p style="margin-bottom:14px; color:#bbb; font-size:13px;">
-    MiMoCode 鏄皬绫宠嚜鐮旂殑鍛戒护琛?AI 缂栫▼鍔╂墜锛屽熀浜庡ぇ妯″瀷椹卞姩锛屾敮鎸佷唬鐮佺敓鎴愩€侀」鐩悊瑙ｃ€佹枃浠剁紪杈戙€丟it 鎿嶄綔绛夎兘鍔涖€?    鏈〉闈㈠嵆鐢?MiMoCode 鑷姩鐢熸垚銆?  </p>
+    MiMoCode 是小米自研的命令行 AI 编程助手，基于大模型驱动，支持代码生成、项目理解、文件编辑、Git 操作等能力。
+    本页面即由 MiMoCode 自动生成。
+  </p>
   <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
     <div style="background:rgba(123,47,247,0.08); border-radius:8px; padding:14px 16px; border:1px solid rgba(123,47,247,0.15);">
-      <p style="color:#b388ff; font-size:12px; font-weight:700; margin-bottom:8px;">馃摝 npm 瀹夎</p>
+      <p style="color:#b388ff; font-size:12px; font-weight:700; margin-bottom:8px;">📦 npm 安装</p>
       <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 12px; font-family:'Cascadia Code','Fira Code',monospace;">
         <p style="color:#66bb6a; font-size:12px; margin-bottom:4px;"><span style="color:#888;">$</span> npm install -g mimocode</p>
-        <p style="color:#999; font-size:10px; margin-top:6px;">闇€瑕?Node.js 鈮?18</p>
+        <p style="color:#999; font-size:10px; margin-top:6px;">需要 Node.js ≥ 18</p>
       </div>
     </div>
     <div style="background:rgba(123,47,247,0.08); border-radius:8px; padding:14px 16px; border:1px solid rgba(123,47,247,0.15);">
-      <p style="color:#b388ff; font-size:12px; font-weight:700; margin-bottom:8px;">馃殌 鍚姩杩愯</p>
+      <p style="color:#b388ff; font-size:12px; font-weight:700; margin-bottom:8px;">🚀 启动运行</p>
       <div style="background:rgba(0,0,0,0.3); border-radius:6px; padding:10px 12px; font-family:'Cascadia Code','Fira Code',monospace;">
         <p style="color:#66bb6a; font-size:12px; margin-bottom:4px;"><span style="color:#888;">$</span> cd your-project</p>
         <p style="color:#66bb6a; font-size:12px;"><span style="color:#888;">$</span> mimocode</p>
@@ -533,14 +534,13 @@
     </div>
   </div>
   <p style="color:#999; font-size:11px; margin-top:12px; text-align:center;">
-    npm锛?a href="https://www.npmjs.com/package/mimocode" style="color:#b388ff; text-decoration:none;">npmjs.com/package/mimocode</a>
-    &nbsp;路&nbsp; GitHub锛?a href="https://github.com/XiaoMi/mimocode" style="color:#b388ff; text-decoration:none;">https://github.com/XiaoMi/mimocode</a>
+    npm：<a href="https://www.npmjs.com/package/mimocode" style="color:#b388ff; text-decoration:none;">npmjs.com/package/mimocode</a>
+    &nbsp;·&nbsp; GitHub：<a href="https://github.com/XiaoMi/mimocode" style="color:#b388ff; text-decoration:none;">https://github.com/XiaoMi/mimocode</a>
   </p>
 </div>
 
-<p class="footer">Generated by MiMo Code 路 2026-06-15 路 鐗堟湰 3.0</p>
+<p class="footer">Generated by MiMo Code · 2026-06-15 · 版本 3.0</p>
 
 </div>
 </body>
 </html>
-
